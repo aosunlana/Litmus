@@ -10,6 +10,7 @@
 	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
 	<SelfContained>false</SelfContained>
 	<PackTargetFramework>net8.0</PackTargetFramework>
+	<Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
