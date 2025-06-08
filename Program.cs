@@ -123,7 +123,7 @@ namespace Litmus
                 stringBuilder.AppendLine($"public void ShouldRender{componentClassName}OnInitialized()");
                 stringBuilder.AppendLine("{");
                 stringBuilder.AppendLine("    // given . when");
-                stringBuilder.AppendLine($"    var rendered = RenderComponent<{componentClassName}>();");
+                stringBuilder.AppendLine($"    this.rendered{componentClassName} = RenderComponent<{componentClassName}>();");
                 stringBuilder.AppendLine();
                 stringBuilder.AppendLine("    // then");
                 stringBuilder.Append(notNullAssertions);
